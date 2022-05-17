@@ -1,0 +1,984 @@
+@charset "utf-8";
+body{
+
+	background-color: #101010;
+}
+#wrap{
+	width: 1900px;
+	
+	height: 100%;
+	
+	background-color: #101010;
+	position: relative;
+}
+p.lefttop>img {
+	float: left;
+	height: 79px;
+	line-height: 100px;
+	width: 234px;
+	text-align: center;
+	
+	background-repeat: no-repeat;
+
+	
+}
+  
+#wrap > header > .bg_lnb {
+   
+    position: absolute;
+    left: 0;
+    top: 76px;
+    width: 100%;
+    height: 403px;
+    background-image: url(./../images/leftblack.png);
+    border-top: 3px solid green;
+    border-bottom: 1px solid green;
+	z-index: 100;
+  }
+  
+  #wrap > header > .bg_lnb > a {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    width: 155px;
+    height: 138px;
+    margin-left: -500px;
+    text-indent: -9999px;
+    /* background-image: url(./../images/item.png); */
+  }
+
+  ol.lnb{
+	  position: absolute;
+	  top: 79px;
+	  height: 500px;
+  }
+  ol.lnbone>li:nth-of-type(1){
+
+	  width: 207px;
+	  height: 77px;
+	  position: absolute;
+	  top: 90px;
+	  left: 0px;
+	  font-size: 20px;
+	  /* background-image: url(./../images/추천제품.png); */
+	  z-index: 101;
+  }
+
+  ol.lnbone>li:nth-of-type(2)
+  {
+	
+	width: 207px;
+	height: 77px;
+	position: absolute;
+	top: 139px;
+	left: 0px;
+	font-size: 20px;
+	/* background-image: url(./../images/선물제안.png); */
+	z-index: 101;
+  }
+ 
+  ol.lnbtwo>li:nth-of-type(1){
+	/* text-indent: -9999px; */
+	width: 207px;
+	height: 77px;
+	position: absolute;
+	top: 90px;
+	left: 198px;
+	font-size: 20px;
+	/* background-image: url(./../images/카메라.png); */
+	z-index: 101;
+}
+
+ol.lnbtwo>li:nth-of-type(2)
+{
+  /* text-indent: -9999px; */
+  width: 207px;
+  height: 77px;
+  position: absolute;
+  top: 139px;
+  left: 198px;
+  font-size: 20px;
+  /* background-image: url(./../images/비디오\ 카메라.png); */
+  z-index: 101;
+}
+
+ol.lnbtwo>li:nth-of-type(3){
+	/* text-indent: -9999px; */
+	width: 207px;
+	height: 77px;
+	position: absolute;
+	top: 194px;
+	left: 198px;
+	font-size: 20px;
+	/* background-image: url(./../images/오디오.png); */
+	z-index: 101;
+}
+
+ol.lnbtwo>li:nth-of-type(4)
+{
+  /* text-indent: -9999px; */
+  width: 207px;
+  height: 75px;
+  position: absolute;
+  top: 250px;
+  left: 198px;
+  font-size: 20px;
+  /* background-image: url(./../images/액세서리.png); */
+  z-index: 101;
+}
+
+ol.lnbtwo>li:nth-of-type(5)
+{
+  /* text-indent: -9999px; */
+  width: 207px;
+  height: 73px;
+  position: absolute;
+  top: 300px;
+  left: 198px;
+  font-size: 20px;
+  /* background-image: url(./../images/playstation.png); */
+  z-index: 101;
+}
+
+ol.lnbthree>li:nth-of-type(1){
+	/* text-indent: -9999px; */
+	width: 200px;
+	height: 77px;
+	position: absolute;
+	top: 90px;
+	left: 400px;
+	font-size: 20px;
+	/* background-image: url(./../images/소니스토어단독.png); */
+	z-index: 101;
+}
+
+ol.lnbthree>li:nth-of-type(2)
+{
+  /* text-indent: -9999px; */
+  width: 200px;
+  height: 77px;
+  position: absolute;
+  top: 139px;
+  left: 400px;
+  font-size: 20px;
+  /* background-image: url(./../images/혜택존.png); */
+  z-index: 101;
+}
+
+ol.lnbthree>li:nth-of-type(3){
+	/* text-indent: -9999px; */
+	width: 200px;
+	height: 77px;
+	position: absolute;
+	top: 194px;
+	left: 400px;
+	font-size: 20px;
+	/* background-image: url(./../images/예약판매.png); */
+	z-index: 101;
+}
+
+ol.lnbthree>li:nth-of-type(4)
+{
+  /* text-indent: -9999px; */
+  width: 200px;
+  height: 75px;
+  position: absolute;
+  top: 250px;
+  left: 400px;
+  font-size: 20px;
+  /* background-image: url(./../images/정품등록이벤트.png); */
+  z-index: 101;
+}
+
+ol.lnbthree>li:nth-of-type(5)
+{
+  /* text-indent: -9999px; */
+  width: 200px;
+  height: 62px;
+  position: absolute;
+  top: 300px;
+  left: 400px;
+  font-size: 20px;
+  /* background-image: url(./../images/LIVEON.png); */
+  z-index: 101;
+}
+
+ol.lnbfour>li:nth-of-type(1){
+	/* text-indent: -9999px; */
+	width: 200px;
+	height: 77px;
+	position: absolute;
+	top: 40px;
+	left: 600px;
+	top: 90px;
+	font-size: 20px;
+	/* background-image: url(./../images/등급&혜택.png); */
+	z-index: 101;
+}
+
+
+ol.lnbfive>li:nth-of-type(1){
+	/* text-indent: -9999px; */
+	width: 200px;
+	height: 77px;
+	position: absolute;
+	top: 90px;
+	left: 800px;
+	font-size: 20px;
+	/* background-image: url(./../images/faq.png); */
+	z-index: 101;
+}
+
+ol.lnbfive>li:nth-of-type(2)
+{
+  /* text-indent: -9999px; */
+  width: 200px;
+  height: 71px;
+  position: absolute;
+  top: 139px;
+  left: 800px;
+  font-size: 20px;
+  /* background-image: url(./../images/정품등록.png); */
+  z-index: 101;
+}
+
+ol.lnbfive>li:nth-of-type(3){
+	/* text-indent: -9999px; */
+	width: 200px;
+	height: 71px;
+	position: absolute;
+	top: 194px;
+	left: 800px;
+	font-size: 20px;
+	/* background-image: url(./../images/제품지원.png); */
+	z-index: 101;
+}
+
+ol.lnbfive>li:nth-of-type(4)
+{
+  /* text-indent: -9999px; */
+  width: 200px;
+  height: 45px;
+  position: absolute;
+  top: 250px;
+  left: 800px;
+  font-size: 20px;
+  /* background-image: url(./../images/구매상담.png); */
+  z-index: 101;
+}
+
+ol.lnbfive>li:nth-of-type(5)
+{
+  /* text-indent: -9999px; */
+  width: 200px;
+  height: 62px;
+  position: absolute;
+  top: 300px;
+  left: 800px;
+  font-size: 20px;
+  /* background-image: url(./../images/직영점안내.png); */
+  z-index: 101;
+}
+h1{
+	text-indent: -9999px;
+
+	background-color: #000;
+}
+ol.lnbfive>li:nth-of-type(6)
+{
+  /* text-indent: -9999px; */
+  width: 200px;
+  height: 47px;
+  position: absolute;
+  top: 351px;
+  left: 800px;
+  font-size: 20px;
+  /* background-image: url(./../images/동영상강좌.png); */
+  z-index: 101;
+}
+nav{
+	background-color: #000;
+}
+ul.gnb{
+	background-color: #000;
+	position: absolute;
+	left: 450px;
+	top: 35px;
+	
+ 	display: flex;
+}
+ul.gnb>li{
+	text-align: center;
+	width: 200px;
+
+	}
+	ul.gnb>li:hover{
+		background-color: blue;
+	}
+ul.gnb>li>a{
+	font-weight: 800;
+	font-size: 24px;
+	color: #fff;
+	
+}
+
+p.righttop>img{
+	position: absolute;
+	top: 0px;
+	left: 1650px;
+	
+}
+
+
+.slides {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 901px;
+	margin: 0 auto;
+	/* border: 1px solid #000; */
+}
+
+ .slides > .slides-container {
+	
+	/* width: 700%; 자바스크립트에서 지정 */
+	/* display: flex;
+	flex-flow: row nowrap; */
+
+	transition: all 0.4s ease-in-out;
+} 
+
+.slides > .slides-container > p {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	text-indent: -9999px;
+	background-position: center center;
+	background-size: cover;
+	opacity: 0;
+
+	transition: all 1s;
+}
+
+.slides > .slides-container > p.on{
+	opacity: 1;
+}
+
+.slides > .slides-container > p.slide-1 {
+	text-indent: -9999px;
+
+	background-image: url(./../images/1.png);
+}
+.slides > .slides-container > p.slide-2 {
+	text-indent: -9999px;
+	background-image: url(./../images/2.png);
+}
+.slides > .slides-container > p.slide-3 {
+	text-indent: -9999px;
+	background-image: url(./../images/3.png);
+}
+
+
+
+.slides > .slides-container > p > a {
+	display: block;
+	height: 901px;
+}
+
+.slides > .slides-pagination {
+	position: absolute;
+	right: 90px;
+	top: 50%;
+	margin-top: -150px;
+	/* border: 1px solid #eee; */
+}
+
+.slides > .slides-pagination > li {
+	width: 180px;
+}
+
+/* .slides > .slides-pagination > li:nth-child(1) {
+	background-image: url(./../images/indicator-1.jpg);
+}
+.slides > .slides-pagination > li:nth-child(2) {
+	background-image: url(./../images/indicator-2.jpg);
+}
+.slides > .slides-pagination > li:nth-child(3) {
+	background-image: url(./../images/indicator-3.jpg);
+}
+.slides > .slides-pagination > li:nth-child(4) {
+	background-image: url(./../images/indicator-4.jpg);
+}
+.slides > .slides-pagination > li:nth-child(5) {
+	background-image: url(./../images/indicator-5.jpg);
+} */
+
+.slides > .slides-pagination > li > a {
+	display: block;
+	height: 60px;
+	text-indent: -9999px;
+}
+
+.slides > .slides-pagination > li.on > a,
+.slides > .slides-pagination > li:hover > a {
+	/* border: 2px solid skyblue; */
+	box-sizing: border-box;
+}
+
+/* 이전, 다음 */
+.slides > a {
+	display: block;
+	position: absolute;
+	top: 1000px;
+	width: 80px;
+	height: 100px;
+	margin-top: -50px;
+	text-indent: -9999px;
+	background-image: url(./../images/btn_navigation.png);
+	
+}
+
+.slides > a.prev {
+	left: 0;
+	background-position: -5px -225px;
+}
+
+.slides > a.prev:hover {
+	background-position: -5px -335px;
+}
+
+.slides > a.next {
+	right: 0;
+	background-position: -5px -5px;
+}
+
+.slides > a.next:hover {
+	background-position: -5px -115px;
+}
+
+/* 자동재생 버튼 */
+.slides > .btn_auto {
+	display: block;
+	position: absolute;
+	left: 50%;
+	bottom: 10px;
+	width: 20px;
+	height: 20px;
+	margin-left: -10px;
+	text-indent: -9999px;
+	background-image: url(./../images/icons.png);
+	background-position: -62px -24px;
+	border: 10px solid #000;
+	cursor: pointer;
+}
+
+.slides > .btn_auto.pause {
+	background-position: 0 -57px;
+}
+
+
+
+
+
+
+
+
+section{
+	background-color: #101010;
+}
+
+
+
+
+
+
+
+section>h2:nth-of-type(1){
+	position: relative;
+	height: 41px;
+	text-indent: -9999px;
+	top: 50px;
+	left: 400px;
+background-image: url(./../images/최근.png);	
+background-repeat: no-repeat;
+	
+}
+section>.slides{
+	display: none;
+}
+section>p{
+	position: relative;
+	left: 400px;
+	top: 100px;
+	background-image: url(./../images/t1swappable.png);
+	width: 1240px;
+	height: 720px;
+}
+section>h2:nth-of-type(2){
+	background-image: url(./../images/밑팀.png);
+	background-repeat: no-repeat;
+	width: 86px;
+	height: 44px;
+	text-indent: -9999px;
+	position: relative;
+	left: 400px;
+	top: 200px;
+}
+
+
+/* big>slides */
+
+section>.bigslides {
+	
+	overflow: hidden;
+	position: absolute;
+	left: 800px;
+	top: 1105px;
+	width: 425px;
+	height: 1280px;
+	margin: 0 auto;
+	/* border: 1px solid #000; */
+}
+
+section>.bigslides > .slides-container {
+	
+	/* width: 700%; 자바스크립트에서 지정 */
+	/* display: flex;
+	flex-flow: row nowrap; */
+
+	transition: all 0.4s ease-in-out;
+} 
+
+section>.bigslides > .slides-container > p {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 100px;
+	text-indent: -9999px;
+	background-position: center center;
+	background-size: cover;
+	opacity: 0;
+
+	transition: all 1s;
+}
+
+section>.bigslides > .slides-container > p.on{
+	opacity: 1;
+}
+
+section>.bigslides > .slides-container > p.slide-1 {
+	text-indent: -9999px;
+	background-image: url(./../images/lol.png);
+}
+section>.bigslides > .slides-container > p.slide-2 {
+	text-indent: -9999px;
+	background-image: url(./../images/twitch.png);
+}
+section>.bigslides > .slides-container > p.slide-3 {
+	text-indent: -9999px;
+	background-image: url(./../images/stone.png);
+}
+section>.bigslides > .slides-container > p.slide-4 {
+	text-indent: -9999px;
+	background-image: url(./../images/nemo.png);
+}
+section>.bigslides > .slides-container > p.slide-5 {
+	text-indent: -9999px;
+	background-image: url(./../images/one.png);
+}
+
+section>.bigslides > .slides-container > p.slide-6 {
+	text-indent: -9999px;
+	background-image: url(./../images/overwatch.png);
+}
+section>.bigslides > .slides-container > p.slide-7 {
+	text-indent: -9999px;
+	background-image: url(./../images/bird.png);
+}
+section>.bigslides > .slides-container > p.slide-8 {
+	text-indent: -9999px;
+	background-image: url(./../images/morae.png);
+}
+
+section>.bigslides > .slides-container > p > a {
+	display: block;
+	height: 207px;
+}
+
+section>.bigslides > .slides-pagination {
+	position: absolute;
+	right: 90px;
+	top: 50%;
+	margin-top: -150px;
+	/* border: 1px solid #eee; */
+}
+
+section>.bigslides > .slides-pagination > li {
+	width: 180px;
+}
+
+/* .slides > .slides-pagination > li:nth-child(1) {
+	background-image: url(./../images/indicator-1.jpg);
+}
+.slides > .slides-pagination > li:nth-child(2) {
+	background-image: url(./../images/indicator-2.jpg);
+}
+.slides > .slides-pagination > li:nth-child(3) {
+	background-image: url(./../images/indicator-3.jpg);
+}
+.slides > .slides-pagination > li:nth-child(4) {
+	background-image: url(./../images/indicator-4.jpg);
+}
+.slides > .slides-pagination > li:nth-child(5) {
+	background-image: url(./../images/indicator-5.jpg);
+} */
+
+section>.bigslides > .slides-pagination > li > a {
+	display: block;
+	height: 60px;
+	text-indent: -9999px;
+}
+
+section>.bigslides > .slides-pagination > li.on > a,
+section>.bigslides > .slides-pagination > li:hover > a {
+	/* border: 2px solid skyblue; */
+	box-sizing: border-box;
+}
+
+/* 이전, 다음 */
+section>.bigslides > a {
+	display: block;
+	position: absolute;
+	top: 1325px;
+	width: 80px;
+	height: 100px;
+	margin-top: -300px;
+	text-indent: -9999px;
+	background-image: url(./../images/btn_navigation.png);
+}
+
+section>.bigslides > a.prev {
+	left: 0;
+	background-position: -5px -225px;
+}
+
+section>.bigslides > a.prev:hover {
+	background-position: -5px -335px;
+}
+
+section>.bigslides > a.next {
+	right: 0;
+	background-position: -5px -5px;
+}
+
+section>.bigslides > a.next:hover {
+	background-position: -5px -115px;
+}
+
+/* 자동재생 버튼 */
+section>.bigslides > .btn_auto {
+	display: block;
+	position: absolute;
+	left: 50%;
+	bottom: 10px;
+	width: 20px;
+	height: 20px;
+	margin-left: -10px;
+	text-indent: -9999px;
+	background-image: url(./../images/icons.png);
+	background-position: -62px -24px;
+	cursor: pointer;
+	border: 10px solid #000;
+	z-index: 300;
+}
+
+section>.bigslides > .btn_auto.pause {
+	background-position: 0 -57px;
+}
+
+section>h2:nth-of-type(3){
+	background-image: url(./../images/뉴스레터.png);
+	background-repeat: no-repeat;
+	width: 107px;
+	height: 50px;
+	text-indent: -9999px;
+	position: relative;
+	left: 400px;
+	top: 700px;
+}
+
+form{
+	background-color: #101010;
+	position: relative;
+	left: 400px;
+	top: 800px;
+}
+
+li {
+	margin-bottom: 20px;
+  }
+
+ li.robot{
+	 text-indent: -9999px;
+	background-image: url(./../images/로봇이아닙니다.png);
+	background-repeat: no-repeat;
+	height: 77px;
+ }
+ button{
+	 background-color: red;
+	 border-radius: 5px;
+	 height: 40px;
+ }
+
+.chair{
+	position: relative;
+	top: 500px;
+	left: 900px;
+	background-image: url(./../images/이미지14.jpg);
+	width: 700px;
+	height: 400px;
+	background-size: cover;
+}
+
+
+footer{
+	position: relative;
+	top: 600px;
+	width: 100%;
+	height: 400px;
+	background-color: #E2012D;
+}
+
+
+footer>ul.gnb{
+
+	width: 95px;
+	background-image: url(./../images/프리미어.png);
+	background-repeat: no-repeat;
+	height: 32px;
+}
+footer>ul.gnb>li{
+	
+}
+footer>ul>li>a{	background-color: #e2012d;
+	
+}
+footer>ul.gnb>li>ol.lnb{}
+footer>ul>li>ol>li:nth-of-type(1){
+	background-image: url(./../images/나이키.png);
+	width: 80px;
+	height: 63px;
+	position: relative;
+	top: 0;
+	left: -250px;
+}
+footer>ul.gnb>li>ol.lnb>li:nth-of-type(2){
+	background-image: url(./../images/bmw.png);
+	width: 105px;
+	height: 75px;
+	position: relative;
+	bottom: 90px;
+	left: -160px;
+}
+footer>ul.gnb>li>ol.lnb>li:nth-of-type(3){
+	background-image: url(./../images/douyu.png);
+	width: 74px;
+	height: 61px;
+	position: relative;
+	bottom: 170px;
+	left: -40px;
+}
+footer>ul.gnb>li>ol.lnb>li:nth-of-type(4){
+	background-image: url(./../images/redbull.png);
+	width: 82px;
+	height: 62px;
+	position: relative;
+	bottom: 260px;
+	left: 50px;
+}
+footer>ul.gnb>li>ol.lnb>li:nth-of-type(5){
+	background-image: url(./../images/odyssey.png);
+	width: 103px;
+	height: 63px;
+	position: relative;
+	bottom: 340px;
+	left: 130px;
+}
+footer>ul.gnb>li>ol.lnb>li:nth-of-type(6){
+	background-image: url(./../images/sktelecom.png);
+	width: 84px;
+	height: 65px;
+	position: relative;
+	bottom: 425px;
+	left: 240px;
+}
+
+
+
+
+
+
+
+footer>ul.gnbtwo{
+	position: relative;
+	left: 1000px;
+	top: 40px;
+	width: 95px;
+	background-image: url(./../images/파트너.png);
+	background-repeat: no-repeat;
+	height: 32px;
+}
+footer>ul.gnb>li{
+	
+}
+footer>ul>li>a{	background-color: #e2012d;
+	
+}
+footer>ul.gnb>li>ol.lnb{}
+footer>ul.gnbtwo>li>ol>li:nth-of-type(1){
+	background-image: url(./../images/hanabank.png);
+	width: 80px;
+	height: 63px;
+	position: relative;
+	top: 0px;
+	left: -160px;
+}
+footer>ul.gnbtwo>li>ol>li:nth-of-type(2){
+	background-image: url(./../images/klevv.png);
+	width: 88px;
+	height: 56px;
+	position: relative;
+	bottom: 90px;
+	left: -60px;
+}
+footer>ul.gnbtwo>li>ol.lnb>li:nth-of-type(3){
+	background-image: url(./../images/steelseries.png);
+	width: 94px;
+	height: 42px;
+	position: relative;
+	bottom: 155px;
+	left: 40px;
+}
+footer>ul.gnbtwo>li>ol.lnb>li:nth-of-type(4){
+	background-image: url(./../images/omen.png);
+	width: 94px;
+	height: 39px;
+	position: relative;
+	bottom: 210px;
+	left: 150px;
+}
+
+
+
+footer>ul.gnbthree{
+	position: relative;
+	left: 1500px;
+	bottom: 10px;
+	width: 95px;
+	background-image: url(./../images/서포터.png);
+	background-repeat: no-repeat;
+	height: 32px;
+}
+footer>ul.gnbthree>li{
+	
+}
+footer>ul.gnbthree>li>a{	background-color: #e2012d;
+	
+}
+footer>ul.gnbthree>li>ol.lnb{}
+footer>ul.gnbthree>li>ol>li{
+	background-image: url(./../images/secretlab.png);
+	width: 96px;
+	height: 47px;
+	 position: relative;
+	 left: -20px;
+	
+}
+
+ol.lnbsec{
+	
+}
+ol.lnbsec>li:nth-of-type(1){
+	background-image: url(./../images/twitter.png);
+	width: 27px;
+	height: 32px;
+	position: relative;
+	left: 900px;
+	top: 110px;
+}
+ol.lnbsec>li:nth-of-type(2){
+	background-image: url(./../images/facebook.png);
+	width: 27px;
+	height: 32px;
+	position: relative;
+	left: 930px;
+	top: 60px;
+}
+ol.lnbsec>li:nth-of-type(3){
+	background-image: url(./../images/youtube.png);
+	width: 27px;
+	height: 32px;
+	position: relative;
+	left: 970px;
+	top: 10px;
+}
+ol.lnbsec>li:nth-of-type(4){background-image: url(./../images/smalltwitch.png);
+	width: 27px;
+	height: 32px;
+	position: relative;
+	left: 1010px;
+	top: -40px;
+}
+ol.lnbsec>li:nth-of-type(5){background-image: url(./../images/instagram.png);
+	width: 27px;
+	height: 32px;
+	position: relative;
+	left: 1045px;
+	top: -95px;}
+ol.lnbsec>li:nth-of-type(6){background-image: url(./../images/weibo.png);
+	width: 27px;
+	height: 32px;
+	position: relative;
+	left: 1075px;
+	top: -150px;}
+ol.lnbsec>li:nth-of-type(7){background-image: url(./../images/discord.png);
+	width: 27px;
+	height: 32px;
+	position: relative;
+	left: 1110px;
+	top: -200px;}
+
+	ol.lnbsec>li:nth-of-type(8){
+		background-image: url(./../images/undersk.png);
+		width: 90px;
+		height: 21px;
+		position: relative;
+		left: 920px;
+		top: -190px;}
+
+		ol.lnbsec>li:nth-of-type(9){background-image: url(./../images/comcastspectacor.png);
+			width: 138px;
+			height: 31px;
+			position: relative;
+			left: 1050px;
+			top: -235px;}
+		
+
+address{
+	position: relative;
+	bottom: 200px;
+	color: #fff;
+	left: 800px
+
+
+
+
+
+
+
+
+
+
+
