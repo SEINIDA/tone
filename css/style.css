@@ -1,13 +1,14 @@
 @charset "utf-8";
 body{
-
+	
+	overflow-x: hidden;
 	background-color: #101010;
 }
 #wrap{
 	width: 1900px;
 	
 	height: 100%;
-	
+
 	background-color: #101010;
 	position: relative;
 }
